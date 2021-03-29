@@ -9,11 +9,16 @@
   <p>
     Sistema de controle geral da FindUP, modulos  de administração geral se encontram aqui.
   </p>
+  <p>
   ## Setup
-  1. Crie o banco de dados
-  2. Faça a configuração do banco criado em **.env**
-  3. Rode `composer install`
-  4. Execute os seguintes passos para as configurações corretas do sistemas:
+  </p>
+
+  <ol type="a">
+    <li>Crie o banco de dados</li>
+    <li>Faça a configuração do banco criado em **.env**</li>
+    <li>Rode `composer install`</li>
+    <li>Execute os seguintes passos para as configurações corretas do sistemas</li>
+  </ol>
 
   `php artisan db:seed --class=EstadosBrasilSeeder`
   `php artisan db:seed --class=RolesAndPermissionsTableSeeder`
