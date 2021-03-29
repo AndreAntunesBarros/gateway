@@ -10,10 +10,11 @@
     Sistema de controle geral da FindUP, modulos  de administração geral se encontram aqui.
   </p>
   <p>
+</div>
   ## Setup
   </p>
 
-  <ol type="a">
+  <ol>
     <li>Crie o banco de dados</li>
     <li>Faça a configuração do banco criado em **.env**</li>
     <li>Rode `composer install`</li>
@@ -25,7 +26,7 @@
 
   ## Observações adicionais
   Não há observações adicionais
-</div>
+
 
 <br />
 
